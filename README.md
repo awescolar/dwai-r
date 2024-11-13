@@ -36,3 +36,19 @@ __Realizando a entrega__
 
 > [!IMPORTANT]
 > Após fazer realizar o envio, verifique se o repositório foi atualizado com sucesso. Somente após se certificar, marque a tarefa como concluída e entregue.
+
+
+__Esclarecendo atualiazções__
+
+No seu primeiro envio vai aparecer uma mensagem conforme abaixo:
+
+
+_Fatal: The current branch cesimar-xavier has no upstream branch.
+To push the current branch and set the remote as upstream, use_
+
+    git push --set-upstream origin cesimar-xavier
+
+_To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'._
+
+__Apenas copie o comando git acima (`git push --set-upstream origin cesimar-xavier`), cole no seu terminal e execute o comando__
