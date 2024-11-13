@@ -52,3 +52,21 @@ _To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'._
 
 __Apenas copie o comando git acima (`git push --set-upstream origin cesimar-xavier`), cole no seu terminal e execute o comando__
+
+Após a execução do comando, o resultado esperado será visto abaixo:
+```
+    $ git push --set-upstream origin cesimar-xavier
+    Enumerating objects: 6, done.
+    Counting objects: 100% (6/6), done.
+    Delta compression using up to 28 threads
+    Compressing objects: 100% (4/4), done.
+    Writing objects: 100% (6/6), 2.68 KiB | 2.68 MiB/s, done.
+    Total 6 (delta 0), reused 6 (delta 0), pack-reused 0 (from 0)
+    remote: 
+    remote: Create a pull request for 'cesimar-xavier' on GitHub by visiting:
+    remote:      https://github.com/awescolar/dwai-r/pull/new/cesimar-xavier
+    remote:
+    To https://github.com/awescolar/dwai-r.git
+     * [new branch]      cesimar-xavier -> cesimar-xavier
+    branch 'cesimar-xavier' set up to track 'origin/cesimar-xavier'.
+```
