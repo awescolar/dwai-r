@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color_white: #FFFFFF;
+    --color_texto: #333;
+    --color_header_bg: #f5f5f5;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body {
+    color: #333;
+    font-family: "Sora", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header__logo {}
+.header__logo-image {}
+
+
+.workspace{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 84px;
+    padding: 5px;
+
+}
+
+.header__user-info {
+    display: flex;
+    align-items: center;
+}
+
+.header__user-avatar {
+    width: 35px;
+    height: 35px;
+    background-color: #f08b33;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header__user-initials {
+    font-size: 1em;
+}
+
+.header__user-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__user-fullname {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.header__user-role {
+    font-size: 0.75em;
+    color: #666;
+}
+
+/*** CONFIGURANDO O SIDEBAR*/
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar__title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.sidebar__menu {
+    list-style: none;
+}
+
+.sidebar__item {
+    margin-bottom: 15px;
+}
+
+.sidebar__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #666;
+}
+
+.sidebar__icon {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.sidebar__label {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.sidebar__submenu {
+    list-style: none;
+    margin-top: 5px;
+    padding-left: 34px; /* Alinha com o texto principal */
+}
+
+.sidebar__subitem {
+    font-size: 0.9em;
+    color: #999;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sidebar__subitem:hover,
+.sidebar__link:hover {
+    color: #0056b3;
+}
+
+.sidebar__subitem--active {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+/*** CONFIGURANDO ÁREA DE TRABALHO ***/
+.breadcrumbs {
+    width: auto;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    padding-right: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.breadcrumbs__nav {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.breadcrumbs__link {
+    color: #3D4551;
+    margin-right: 5px;
+}
+
+.breadcrumbs__separator {
+    margin: 0 5px;
+    color: #666;
+}
+
+.breadcrumbs__current {
+    color: #333;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 84px;
+}
+
+.limits {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.limit-box, .info-box {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.limit-box{
+    display: flex;
+    width: 584px;
+    height: 200px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.info-box{
+    display: flex;
+    width: 408px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    }
+
+.limit-box__title, .info-box__title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.limit-box__title{
+    display: flex;
+    width: 100%;
+    gap: 80px;
+}
+
+.subinfo{
+    width: 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subinfo2{
+    align-items: flex-end;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 8px;
+    margin: 10px 0;
+}
+
+.progress-bar__fill {
+    background-color: #0056b3;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.limit-box__info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.purchase {
+    width: 1024px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #F6F6F6;
+    border-radius: 8px;
+}
+
+.purchase-amount, .purchase-total {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.input-group__button {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #0056b3;
+}
+
+.input-group__input {
+    width: 80px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.total-amount {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+.notice {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    font-size: 0.8em;
+    color: #666;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #CCC;
+    background: #FFF;
+    padding: 24px 32px;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.button--secondary {
+    background-color: #fff;
+    color: #0056b3;
+    border: 1px solid #0056b3;
+}
+
+.button--primary {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.button--primary:hover, .button--secondary:hover {
+    opacity: 0.8;
+}
+
+main{
+    display: flex;
+}
+
+.button_continue{
+    background-color: #104F98;
+    align-items: center;
+    width: 227px;
+    height: 48px;
+}
+.button--secondary{
+   width: 227px;
+    height: 48px; 
+}
+
+.infoline{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.subinfo3{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
