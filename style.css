@@ -13,9 +13,6 @@
 
 }
 
-/**
-Lembrar de carregar a fonte correta do Google Fonts
-*/
 
 body {
     color: #333;
@@ -29,10 +26,6 @@ body {
     background-color: var(--color_header_bg);
     border-bottom: 1px solid #ddd;
 }
-
-.header__logo {}
-.header__logo-image {}
-
 
 .header__user-info {
     display: flex;
@@ -71,7 +64,6 @@ body {
     color: #666;
 }
 
-/*** CONFIGURANDO O SIDEBAR*/
 .sidebar {
     width: 250px;
     padding: 20px;
@@ -115,7 +107,7 @@ body {
 .sidebar__submenu {
     list-style: none;
     margin-top: 5px;
-    padding-left: 34px; /* Alinha com o texto principal */
+    padding-left: 34px; 
 }
 
 .sidebar__subitem {
@@ -136,7 +128,6 @@ body {
     font-weight: bold;
 }
 
-/*** CONFIGURANDO ÁREA DE TRABALHO ***/
 .breadcrumbs {
     padding: 10px 20px;
     background-color: #f5f5f5;
