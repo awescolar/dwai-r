@@ -26,3 +26,12 @@ body{
     color: #2667BF;
     text-align: center;
 }
+
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
