@@ -30,6 +30,14 @@ body{
 .container{
     width: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteudo{
+    width: auto;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
