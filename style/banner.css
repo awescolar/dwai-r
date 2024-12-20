@@ -1,0 +1,33 @@
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 840px;
+    height: 182px;
+    padding: 0px 7px 0px 24px;
+    color: #FFF;
+    border-radius: 10px;
+    background: var(--Default, #2F80ED);
+}
+
+.banner .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+    width: 598px;
+}
+
+.banner button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    height: 36px;
+    padding: 8px 12px;
+    border-radius: 40px;
+    color: #FFF;
+    background: var(--color-gray-100, #202020);
+    text-decoration-style: none;
+}
