@@ -1,0 +1,52 @@
+.table-jogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 840px;
+    padding: 20px 24px;
+    border-radius: 6px;
+    background-color: #ffff;
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+}
+
+.table-jogos a {
+    font-size: 10px;
+    font-weight: 400;
+    color: #2F80ED;
+    border-radius: 8px;
+    background: var(--Light-Opacity, rgba(191, 218, 255, 0.25));
+}
+
+.table-jogos .th {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 792px;
+    font-weight: 600;
+}
+
+.jogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.jogos .texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.jogo-text {
+    width: 218px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 792px;
+}
