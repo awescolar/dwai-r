@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Paytone+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .badge {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .badge span {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+  }
+  
+  .badge span:nth-child(2) {
+    background-color: #ffb400;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  } 
+  
+  .objetivos, .conteudos {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  } 
+  h1, h2 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  p, ul {
+    font-family: 'Lato';
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .propriedades pre {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 0.85em;
+    white-space: pre-wrap;
+    color: #333;
+  }
+  
