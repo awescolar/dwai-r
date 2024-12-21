@@ -1,0 +1,19 @@
+.list-card-2{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-card-2 .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-card-2 .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
