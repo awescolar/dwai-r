@@ -1,0 +1,52 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+  }
+  
+  .sidebar h2 {
+    color: #1e6fe6;
+  }
+  
+  .sidebar nav ul,
+  .amigos ul {
+    list-style: none;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+  }
+  
+  .sistema p {
+    cursor: pointer;
+  }
+  
+  .sair {
+    color: red;
+  }
+  
