@@ -1,0 +1,23 @@
+.perfil {
+    flex: 18;
+    background: #fff;
+    padding: 2px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .perfil .grafico {
+    background: #e0e0e0;
+    height: 100px;
+    border-radius: 5px;
+  }
+  
+  .agenda ul {
+    list-style: none;
+  }
+  
+  .agenda li {
+    margin: 10px 0;
+  }
