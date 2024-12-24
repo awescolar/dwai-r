@@ -1,0 +1,213 @@
+
+.main-content {
+    flex: 3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  header input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar .logo-pesq {
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  
+  .banner {
+    background-color: #2378FF;
+    color: #fff;
+    width: 840px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 181p;
+  }
+  
+  .title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .description {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  
+  .highlight {
+    color: #cce6ff; 
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .watch-button {
+    display: flex;
+    text-align: right;
+    gap: 12px;
+    background-color: #1C1C1C;
+    color: #fff;
+    border: none;
+    padding: 10px 8px;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    top: 125px;
+    width: 165px;
+    font-weight: 500px;
+    }
+  
+  
+  .watch-button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .watch-button:hover {
+    background-color: #333;
+  }
+  
+  
+  .progress-bar {
+    height: 6px;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+  
+  .progress {
+    height: 6px;
+    background-color: #007bff;
+    border-radius: 3px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #007bff;
+    background-color: #e9f5ff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .tag.esporte {
+    color: #007bff;
+    background-color: #e9f5ff;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 10px;
+  }
+  
+  .agendas {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  ;
+    
+  }
+  
+  .info{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    bottom: unset;
+    border-radius: 30px;
+  
+  }
+  
+  .agendas div {
+    background: #f0f0f0;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .novidades .cards {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 10px;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jogos table {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .jogos td {
+    padding: 10px;
+  }
+  
