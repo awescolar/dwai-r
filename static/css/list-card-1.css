@@ -1,0 +1,25 @@
+.cards-1 {
+    display: flex; /* Flexbox para alinhar os cards lado a lado */
+    justify-content: center; /* Alinha os cards horizontalmente */
+    gap: 20px; /* Espaço entre os cards */
+    margin-top: 25px;
+}
+
+.cards-1 div {
+    display: flex; /* Flexbox dentro de cada card */
+    flex-direction: row; /* Coloca a imagem à esquerda e o texto à direita */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    width: 230px; /* Define uma largura fixa para os cards */
+    padding: 15px; /* Espaço interno do card */
+    background-color: #fff; /* Cor de fundo */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.cards-1 img {
+    width: 50px; /* Tamanho da imagem */
+    height: 50px;
+    margin-right: 15px; /* Espaço entre a imagem e o texto */
+}
+
+

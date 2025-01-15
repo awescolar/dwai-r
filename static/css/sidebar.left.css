@@ -1,0 +1,116 @@
+.sidebar-left-geral {
+    width: 200px;
+    margin-top: 0;
+    padding-top: 0;
+    left: 0;
+    background: var(--color-gray-10, #FFF);
+    box-shadow: 0px 14px 42px rgba(8, 15, 52, 0.06);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh; /* Permite que a altura da sidebar se ajuste ao conteúdo */
+}
+
+.principal h4 {
+    margin-bottom: 15px; 
+}
+
+.title-principal{
+    color: var(--color-gray-90, #3F3F3F);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.principal-topicos h4{
+    color: var(--color-gray-100, #202020);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sidebar-left-geral .blue-dash {
+    color:#2F80ED;
+}
+
+.principal-topicos {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.img-descricao-side {
+    display: flex;
+    align-items: center; 
+    margin: 0; 
+    padding: 0; 
+    gap: 10px; 
+}
+
+.img-descricao-side img {
+    margin: 0; 
+    padding: 0; 
+}
+  
+.img-descricao-side h4 {
+    margin: 0; 
+    padding: 0; 
+}
+
+.seus-amigos {
+    display: flex; /* Para controlar o layout */
+    flex-direction: column; /* Garantir que os itens estejam em coluna */
+    align-items: center; /* Alinhar os itens ao centro horizontalmente */ /* Centralizar o texto dentro do container */
+    gap: 10px; /* Espaçamento entre os elementos */
+    width: 100%; /* Para garantir a largura consistente */
+}
+
+.seus-amigos h4 {
+    color: var(--color-gray-90, #3F3F3F);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px; /* Este espaçamento será mantido */
+    text-align: center; /* Certificar que o texto do título está centralizado */
+}
+
+.seus-amigos img {
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+
+
+.sistema {
+    display: flex;           
+    justify-content: flex-start;
+    flex-direction: column; 
+    margin-top: 20px;         
+}
+
+.sistema h4{
+    color: var(--color-gray-90, #3F3F3F);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.sistema div {
+    display: flex;            
+    align-items: center;      
+    gap: 10px;                
+}
+
+.sistema img {
+    width: 20px;             
+    height: auto;             
+}
