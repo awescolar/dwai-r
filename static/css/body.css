@@ -4,3 +4,8 @@ html, body {
     padding: 0;
     overflow-y: auto;
 }
+
+.div-geral{
+    display: flex;
+    gap: 32px;
+}
