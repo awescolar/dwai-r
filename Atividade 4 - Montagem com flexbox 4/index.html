@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4 - Montagem com flexbox 4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header>
+        <div class="org">
+            <svg xmlns="http://www.w3.org/2000/svg" width="112" height="31" viewBox="0 0 112 31" fill="none">
+                <path d="M0.20166 30V0.90908H7.23291V24.2898H19.3352V30H0.20166Z" fill="black"/>
+                <path d="M49.2997 15.4545C49.2997 18.6553 48.6841 21.3684 47.4531 23.5937C46.222 25.8191 44.5554 27.5095 42.4531 28.6648C40.3603 29.8201 38.0118 30.3977 35.4076 30.3977C32.794 30.3977 30.4408 29.8153 28.348 28.6506C26.2552 27.4858 24.5932 25.7954 23.3622 23.5795C22.1406 21.3542 21.5298 18.6458 21.5298 15.4545C21.5298 12.2538 22.1406 9.54071 23.3622 7.31533C24.5932 5.08995 26.2552 3.39961 28.348 2.24431C30.4408 1.089 32.794 0.511353 35.4076 0.511353C38.0118 0.511353 40.3603 1.089 42.4531 2.24431C44.5554 3.39961 46.222 5.08995 47.4531 7.31533C48.6841 9.54071 49.2997 12.2538 49.2997 15.4545ZM42.1122 15.4545C42.1122 13.5606 41.8423 11.9602 41.3025 10.6534C40.7722 9.34658 40.0052 8.357 39.0014 7.68465C38.0071 7.0123 36.8091 6.67613 35.4076 6.67613C34.0156 6.67613 32.8177 7.0123 31.8139 7.68465C30.8101 8.357 30.0383 9.34658 29.4985 10.6534C28.9682 11.9602 28.7031 13.5606 28.7031 15.4545C28.7031 17.3485 28.9682 18.9489 29.4985 20.2557C30.0383 21.5625 30.8101 22.5521 31.8139 23.2244C32.8177 23.8968 34.0156 24.2329 35.4076 24.2329C36.8091 24.2329 38.0071 23.8968 39.0014 23.2244C40.0052 22.5521 40.7722 21.5625 41.3025 20.2557C41.8423 18.9489 42.1122 17.3485 42.1122 15.4545Z" fill="black"/>
+                <path d="M72.4957 10.4119C72.3347 9.81533 72.098 9.28976 71.7855 8.83522C71.473 8.3712 71.0894 7.97821 70.6349 7.65624C70.1804 7.33427 69.6595 7.09279 69.0724 6.93181C68.4853 6.76135 67.8413 6.67613 67.1406 6.67613C65.7296 6.67613 64.508 7.01703 63.4758 7.69885C62.4531 8.38067 61.6624 9.37499 61.1036 10.6818C60.5449 11.9792 60.2656 13.5559 60.2656 15.4119C60.2656 17.2775 60.5355 18.8684 61.0752 20.1846C61.615 21.5009 62.3963 22.5047 63.419 23.196C64.4417 23.8873 65.6822 24.2329 67.1406 24.2329C68.4285 24.2329 69.5175 24.0246 70.4076 23.6079C71.3072 23.1818 71.9891 22.5805 72.4531 21.804C72.9171 21.0275 73.1491 20.1136 73.1491 19.0625L74.4559 19.2187H67.3821V14.0909H79.9247V17.9403C79.9247 20.5445 79.3707 22.7746 78.2627 24.6307C77.1643 26.4867 75.6491 27.9119 73.7173 28.9062C71.7949 29.9006 69.5838 30.3977 67.0838 30.3977C64.3091 30.3977 61.8707 29.7964 59.7684 28.5937C57.6661 27.3911 56.0279 25.6771 54.8536 23.4517C53.6794 21.2168 53.0923 18.5653 53.0923 15.4971C53.0923 13.1108 53.4474 10.9943 54.1576 9.14772C54.8679 7.29166 55.8574 5.71969 57.1264 4.43181C58.4048 3.14393 59.8821 2.16855 61.5582 1.50567C63.2438 0.842792 65.0573 0.511353 66.9985 0.511353C68.6841 0.511353 70.2514 0.75283 71.7002 1.23579C73.1586 1.71874 74.4464 2.40056 75.5639 3.28124C76.6908 4.16192 77.6046 5.20832 78.3054 6.42044C79.0061 7.63257 79.4417 8.96306 79.6122 10.4119H72.4957Z" fill="black"/>
+                <path d="M111.526 15.4545C111.526 18.6553 110.911 21.3684 109.68 23.5937C108.449 25.8191 106.782 27.5095 104.68 28.6648C102.587 29.8201 100.238 30.3977 97.6342 30.3977C95.0205 30.3977 92.6673 29.8153 90.5745 28.6506C88.4817 27.4858 86.8198 25.7954 85.5887 23.5795C84.3671 21.3542 83.7563 18.6458 83.7563 15.4545C83.7563 12.2538 84.3671 9.54071 85.5887 7.31533C86.8198 5.08995 88.4817 3.39961 90.5745 2.24431C92.6673 1.089 95.0205 0.511353 97.6342 0.511353C100.238 0.511353 102.587 1.089 104.68 2.24431C106.782 3.39961 108.449 5.08995 109.68 7.31533C110.911 9.54071 111.526 12.2538 111.526 15.4545ZM104.339 15.4545C104.339 13.5606 104.069 11.9602 103.529 10.6534C102.999 9.34658 102.232 8.357 101.228 7.68465C100.234 7.0123 99.0357 6.67613 97.6342 6.67613C96.2421 6.67613 95.0442 7.0123 94.0404 7.68465C93.0366 8.357 92.2649 9.34658 91.7251 10.6534C91.1948 11.9602 90.9296 13.5606 90.9296 15.4545C90.9296 17.3485 91.1948 18.9489 91.7251 20.2557C92.2649 21.5625 93.0366 22.5521 94.0404 23.2244C95.0442 23.8968 96.2421 24.2329 97.6342 24.2329C99.0357 24.2329 100.234 23.8968 101.228 23.2244C102.232 22.5521 102.999 21.5625 103.529 20.2557C104.069 18.9489 104.339 17.3485 104.339 15.4545Z" fill="black"/>
+            </svg>
+            <nav>
+                <a href="">sobre</a>
+                <a href="">cursos</a>
+                <a href="">Biblioteca</a>
+                <a href="">Materiais</a>
+            </nav>
+        </div>
+     </header>
+     <main>
+        <section class="links">
+            <nav class="links">
+                <a href="">Home</a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24" fill="none">
+                        <path d="M10 12L11 12" stroke="#E0E0E0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 5L29 12L22 19" stroke="#4F4F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18 8L22 12L18 16" stroke="#828282" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14 10L16 12L14 14" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      Livros
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" viewBox="0 0 30 24" fill="none">
+                        <path d="M10 12L11 12" stroke="#E0E0E0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 5L29 12L22 19" stroke="#4F4F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18 8L22 12L18 16" stroke="#828282" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M14 10L16 12L14 14" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      Biblioteca do Professor
+                </a>
+            </nav>   
+        </section>
+        <section class="biblioteca">
+            <div class="texto-biblioteca">
+                <h1>Biblioteca do Professor</h1>
+                <p>256 livros  |  23 livros comentados   |  5 resenhas</p>
+            </div>
+        </section>
+        <section class="tipo-livro">
+            <nav>
+                <a href="">Fundamentos do design</a>
+                <a class="azul" href="">UX / UI Design</a>
+                <a href="">Inovação</a>
+                <a href="">Ensino e Aprendizagem</a>
+                <a href="">Desenvolvimento Pessoal</a>
+            </nav>
+        </section>
+        <section class="fundamentos">
+            <div class="container">
+              <div class="titulos-fundamentos">
+                <h2>Fundamentos do design</h2>
+                <p>6 livros</p>
+            </div>
+            <div class="cards">
+                    <div class="card">
+                      <div class="org-card">
+                          <img src="img/image 2 1.png" alt="">
+                          <div class="texto-card">
+                              <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
+                              <p>Autor: Ellen Lupton</p>
+                              <p class="editora">Editora, 2020</p>
+                              <p class="underline">Artes   Design   Fundamentos da Imagem</p>
+                          </div>
+                      </div>
+                      <a href="">
+                          Leia mais
+                          <svg xmlns="http://www.w3.org/2000/svg" width="31" height="25" viewBox="0 0 31 25" fill="none">
+                              <g clip-path="url(#clip0_2301_594)">
+                                <path d="M10.5 12.8401L11.5 12.8401" stroke="#56CCF2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22.5 5.84012L29.5 12.8401L22.5 19.8401" stroke="#2D9CDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M18.5 8.84012L22.5 12.8401L18.5 16.8401" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14.5 10.8401L16.5 12.8401L14.5 14.8401" stroke="#56CCF2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_2301_594">
+                                  <rect width="30" height="24" fill="white" transform="translate(0.5 0.840118)"/>
+                                </clipPath>
+                              </defs>
+                            </svg>
+                      </a>
+                  </div>
+                <div class="card">
+                    <div class="org-card">
+                        <img src="img/image 2 (4).png" alt="">
+                        <div class="texto-card">
+                            <h3>Marcas. Design Estratégico</h3>
+                            <p>Cecília Consolo</p>
+                            <p class="editora">Editora Blucher, 2020</p>
+                             <p class="underline">Artes   Design   Fundamentos da Imagem</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        Leia mais
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="25" viewBox="0 0 31 25" fill="none">
+                            <g clip-path="url(#clip0_2301_594)">
+                              <path d="M10.5 12.8401L11.5 12.8401" stroke="#56CCF2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M22.5 5.84012L29.5 12.8401L22.5 19.8401" stroke="#2D9CDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M18.5 8.84012L22.5 12.8401L18.5 16.8401" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M14.5 10.8401L16.5 12.8401L14.5 14.8401" stroke="#56CCF2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_2301_594">
+                                <rect width="30" height="24" fill="white" transform="translate(0.5 0.840118)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="org-card">
+                        <img src="img/image 2 (1).png" alt="">
+                        <div class="texto-card">
+                            <h3>Logo Love Design</h3>
+                            <p>David Airey</p>
+                            <p class="editora">Editora New Riders, 2020</p>
+                             <p class="underline">Artes   Design   Fundamentos da Imagem</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        Leia mais
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="25" viewBox="0 0 31 25" fill="none">
+                            <g clip-path="url(#clip0_2301_594)">
+                              <path d="M10.5 12.8401L11.5 12.8401" stroke="#56CCF2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M22.5 5.84012L29.5 12.8401L22.5 19.8401" stroke="#2D9CDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M18.5 8.84012L22.5 12.8401L18.5 16.8401" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M14.5 10.8401L16.5 12.8401L14.5 14.8401" stroke="#56CCF2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_2301_594">
+                                <rect width="30" height="24" fill="white" transform="translate(0.5 0.840118)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="org-card">
+                        <img src="img/image 2.png" alt="">
+                        <div class="texto-card">
+                            <h3>Sintaxe daIntuição, Ação, Criação Graphic Design Thinking Linguagem Visual</h3>
+                            <p>Autor: Ellen Lupton</p>
+                            <p class="editora">Editora, 2020</p>
+                             <p class="underline">Artes   Design   Fundamentos da Imagem</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        Leia mais
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="25" viewBox="0 0 31 25" fill="none">
+                            <g clip-path="url(#clip0_2301_594)">
+                              <path d="M10.5 12.8401L11.5 12.8401" stroke="#56CCF2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M22.5 5.84012L29.5 12.8401L22.5 19.8401" stroke="#2D9CDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M18.5 8.84012L22.5 12.8401L18.5 16.8401" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M14.5 10.8401L16.5 12.8401L14.5 14.8401" stroke="#56CCF2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_2301_594">
+                                <rect width="30" height="24" fill="white" transform="translate(0.5 0.840118)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="org-card">
+                        <img src="img/image 2 (2).png" alt="">
+                        <div class="texto-card">
+                            <h3>Marcas. Design Estratégico</h3>
+                            <p>Cecília Consolo</p>
+                            <p class="editora">Editora Blucher, 2020</p>
+                             <p class="underline">Artes   Design   Fundamentos da Imagem</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        Leia mais
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="25" viewBox="0 0 31 25" fill="none">
+                            <g clip-path="url(#clip0_2301_594)">
+                              <path d="M10.5 12.8401L11.5 12.8401" stroke="#56CCF2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M22.5 5.84012L29.5 12.8401L22.5 19.8401" stroke="#2D9CDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M18.5 8.84012L22.5 12.8401L18.5 16.8401" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M14.5 10.8401L16.5 12.8401L14.5 14.8401" stroke="#56CCF2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_2301_594">
+                                <rect width="30" height="24" fill="white" transform="translate(0.5 0.840118)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="org-card">
+                        <img src="img/image 2 (3).png" alt="">
+                        <div class="texto-card">
+                            <h3>Logo Love Design</h3>
+                            <p>David Airey</p>
+                            <p class="editora">Editora New Riders, 2020</p>
+                             <p class="underline">Artes   Design   Fundamentos da Imagem</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        Leia mais
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="25" viewBox="0 0 31 25" fill="none">
+                            <g clip-path="url(#clip0_2301_594)">
+                              <path d="M10.5 12.8401L11.5 12.8401" stroke="#56CCF2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M22.5 5.84012L29.5 12.8401L22.5 19.8401" stroke="#2D9CDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M18.5 8.84012L22.5 12.8401L18.5 16.8401" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M14.5 10.8401L16.5 12.8401L14.5 14.8401" stroke="#56CCF2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_2301_594">
+                                <rect width="30" height="24" fill="white" transform="translate(0.5 0.840118)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </section>
+     </main>
+     <footer>
+      <img src="img/Group.svg" alt="">
+     </footer>
+</body>
+</html>
