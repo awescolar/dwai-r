@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    width: 100vw;
+
     height: 90px;
     display: flex;
     justify-content: center;
@@ -117,7 +117,6 @@ h1{
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140%; /* 36.4px */
 }
 .fundamentos p{
     color: var(--dark-gray, #8A9399);
@@ -126,11 +125,110 @@ h1{
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 160%; /* 25.6px */   
+    font-weight: 400; 
+    padding-top: 8px;
 }
 .titulos-fundamentos{
     display: flex;
-    align-items: center;
     gap: 21px;
+    align-items: center;
+    margin-top: 60px;
+}
+.fundamentos .container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.fundamentos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.card h3{
+    color: #000;
+
+    /* tipography/heading6 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 22.4px */   
+    width: 180px; 
+}
+.card p{
+    color: #000;
+    /* tipography/t3/light */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 19.6px */    
+}
+.card .editora{
+    color: #8A9399;
+
+    /* tipography/t3 / regular */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */   
+}
+.card .underline{
+    color: var(--dark-gray, #8A9399);
+
+    /* tipography/t3/link */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+}
+.card a{
+    color: var(--Blue-1, #2F80ED);
+
+    /* tipography/t3/link */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    display: flex;
+    align-items: center;
+    width: 180px;
+}
+.card{
+    border: 0.6px #b9bdc0 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+
+}
+.card .org-card{
+    display: flex;
+    gap: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--extra-light-snow, #F9FAFC);
+    height: 52px;
 }
