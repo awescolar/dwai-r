@@ -1,0 +1,53 @@
+.sidebar-right-geral{
+    display: flex;
+    padding: 40px 24px;
+    flex-direction: column;
+    background: var(--color-gray-10, #FFF);
+    box-shadow: 0px 14px 42px 0px rgba(8, 15, 52, 0.06);
+    padding-top: 15px;
+}
+
+.superior-sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding-bottom: 20px;
+}
+
+.fotolobo-sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotolobo-sidebar img{
+    width: 103px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.fotolobo-sidebar h4{
+    margin-bottom: 6px;
+}
+
+.fotolobo-sidebar p{
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.botoes-sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.parciais-sidebar{
+    
+}
+
