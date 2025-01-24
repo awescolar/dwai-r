@@ -1,7 +1,26 @@
 .list-card-1{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 100px;
+    gap: 15px; 
+    margin-bottom: 10px;
+}
+
+.abaixo-cards1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 628px;
+}
+
+.abaixo-cards1 h4 {
+    color: var(--color-gray-100, #202020);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }

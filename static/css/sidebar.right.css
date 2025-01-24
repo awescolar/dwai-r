@@ -68,7 +68,9 @@
 
 .parciais-sidebar{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: end;
+    gap: 12px;
 }
 
 .titulo-parciais{
@@ -79,6 +81,7 @@
     font-weight: 600;
     line-height: normal;
     margin-left: 18px;
+    margin-bottom: 10px;
 }
 
 .agenda-sidebar{
