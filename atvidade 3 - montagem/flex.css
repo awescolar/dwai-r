@@ -1,0 +1,164 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.card {
+    border-radius: 10px;
+    background: #F1F1F1;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 650px;
+    padding-left: 27px;
+    padding-top: 28px;
+}
+
+
+.icones {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 2px;
+}
+
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19px;
+    height: 16px;
+    border-radius: 50px;
+    background: var(--Gray-3, #828282);
+    color: #FAFAFA;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 10px */
+}
+
+.p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: var(--Blue-2, #2D9CDB);
+    color: #FAFAFA;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 10px */
+    width: 73px;
+    height: 16px;
+}
+
+.p3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D1D1B;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 10px */
+    border-radius: 50px;
+    background: #FFC460;
+    width: 28px;
+    height: 16px;
+}
+
+.title{
+    width: 399px;
+    border-bottom: 0.8px solid var(--Gray-2, #4F4F4F);
+    color: #333;
+    font-family: "Paytone One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title h3{
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.obj h4{
+    color: #000;
+    font-family: "Paytone One";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+.obj p{
+    margin-bottom: 12px;
+    color: #727272;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.cont h4{
+    color: #000;
+    font-family: "Paytone One";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+.cont ul {
+    color: #828282;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    padding-left: 20px;
+}
+
+.caixa p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2px;
+    gap: 2px;
+    align-self: stretch;
+    color: #727272;
+    font-family: "Space Mono";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 18px */
+    letter-spacing: -0.24px;
+    
+}
+
+.caixa {
+    padding: 16px;
+    width: 399px;
+    height: 190px;
+    border-radius: 10px;
+    border: 1px solid var(--Gray-4, #BDBDBD);
+    background: var(--gradiente, linear-gradient(105deg, rgba(196, 196, 196, 0.04) 1.21%, rgba(178, 178, 178, 0.15) 97.68%));
+    margin-bottom: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 31px;
+}
