@@ -1,0 +1,263 @@
+body {
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+}
+
+/* ============= HEADER ============== */
+.container-1 {
+    max-width: 1250px;
+}
+.container-2 {
+    max-width: 800px;
+}
+.container-3 {
+    max-width: 1400px;
+}
+.container-1, .container-2, .container-3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background: #203C86;
+    height: 100px;
+    color: white;
+    padding: 10px;
+}
+header .redes {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    text-align: right;
+    font-weight: 200;
+}
+header .redes small {
+    margin-right: 30px;
+}
+header .redes a {
+    color: #FFC82C;
+    margin-left: 20px;
+    font-size: 20px;
+}
+header .section-nav {
+    margin-top: 10px;
+}
+header .section-nav .menu {
+    display: flex;
+    float: right;
+    list-style: none;
+}
+header .section-nav .menu .item-menu {
+    margin-left: 30px;
+}
+header .section-nav .menu .item-menu .link {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    transition: 0.3s;
+    padding-bottom: 25px;
+}
+header .section-nav .menu .item-menu .link:hover {
+    font-weight: 600;
+    border-bottom: 5px solid #FFC82C;
+    
+}
+
+/* ============= MAIN ============== */
+
+.titulo-1 {
+    font-size: 40px;
+}
+
+.mensagem {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.mensagem em {
+    color: #2648A1;
+    font-size: 25px;
+}
+.logo_maior {
+    margin-bottom: 30px;
+}
+
+.container-2 p {
+    font-size: 19px;
+    line-height: 1.5em;
+}
+
+.titulo-2 {
+    color: #2648A1;
+    margin: 0;
+}
+.line {
+    margin-top: 5px;
+    height: 5px;
+    width: 85px;
+    background-color: #FFC82C;
+}
+.titulo-2 small {
+    font-weight: 400;
+    font-size: 16px;
+}
+.noticia section figure {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.noticia section {
+    width: 900px;
+    margin-bottom: 250px;
+}
+.noticia section p{
+    width: 410px;
+    margin: 0;
+    display: inline-block;
+}
+.noticia section img {
+    width: 450px;
+    margin-top: 0;
+    padding: 0;
+}
+.noticia section figure figcaption {
+    max-width: 340px;
+    margin: auto;
+    font-size: 15px;
+    color: #2648A1;
+    border-left: 1px solid #2648A1;
+    border-right: 1px solid #2648A1;
+    border-bottom: 1px solid #2648A1;
+    position: relative;
+    top: -3px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.noticia section figure figcaption strong {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.galeria h2 {
+    color: #2648A1;
+    font-weight: 900;
+}
+.galeria h2 small {
+    font-weight: 400;
+    font-size: 15px;
+}
+main .galeria .imagens figure{
+    display: inline-block;
+    margin: 0;
+
+}
+.galeria .imagens img {
+    width: 250px;
+
+}
+
+/* ============= FOOTER ============== */
+
+footer {
+    background: linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%);
+    padding: 30px;
+    margin-top: 100px;
+}
+footer .container-1 section{
+    display: inline-block;
+    margin-right: 20px;
+}
+footer ul {
+    list-style: none;
+}
+.coluna-1 {
+    max-width: 350px;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}
+.coluna-1 li {
+    margin-bottom: 30px;
+}
+.coluna-1 li i {
+    margin-right: 10px;
+    font-size: 16px;
+}
+.coluna-1 #socials i {
+    margin-right: 30px;
+}
+.coluna-1 a {
+    color: white;
+}
+
+.coluna-2 {
+    color: white;
+    max-width: 470px;
+    font-size: 14px;
+    font-weight: 300;
+}
+footer .container-1 .coluna-2 .top .sub-menu {
+    display: inline-block;
+}
+.coluna-2 .top {
+    list-style: none;
+    font-weight: 400;
+    position: relative;
+    left: -40px;
+}
+.coluna-2 .top .link {
+    text-decoration: none;
+    color: white;
+}
+.coluna-2 .top .item-menu {
+    transition: .5s;
+    margin-bottom: 10px;
+}
+.coluna-2 .top .item-menu:hover {
+    scale: 1.05;
+}
+.coluna-2 .top ul {
+    margin-right: 50px;
+}
+.coluna-2 .down {
+    line-height: 1.5em;
+}
+
+.coluna-3 {
+    width: 210px;
+}
+.coluna-3 .telegram{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 210px;
+    padding-bottom: 50px;
+    font-size: 13px;
+    margin: 0;
+    height: 120px;
+    float:inline-start;
+}
+.coluna-3 .telegram h3{
+    font-size: 15px;
+    margin: 0;
+}
+.coluna-3 .telegram p {
+    margin-bottom: 40px;
+}
+.coluna-3 .telegram a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background: #488cf1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .5s;
+}
+.coluna-3 .telegram a i {
+    margin-right: 10px;
+}
+.coluna-3 .telegram a:hover {
+    background: #67a4ff;
+}
