@@ -50,18 +50,18 @@ header .section-nav .menu {
 header .section-nav .menu .item-menu {
     margin-left: 30px;
 }
-header .section-nav .menu .item-menu .link {
-    color: white;
-    text-decoration: none;
-    font-weight: 200;
-    transition: 0.3s;
-    padding-bottom: 25px;
+
+.menu{
+    display: flex;
+    align-items: center;
 }
-header .section-nav .menu .item-menu .link:hover {
-    font-weight: 600;
-    border-bottom: 5px solid #FFC82C;
-    
+
+.item-menu{
+    margin-top: 0;
+    margin-bottom: 10px;
 }
+
+
 
 /* ============= MAIN ============== */
 
