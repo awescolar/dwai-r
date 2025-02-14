@@ -4,7 +4,6 @@ body {
     padding: 0;
 }
 
-/* ============= HEADER ============== */
 .container-1 {
     max-width: 1250px;
 }
@@ -24,7 +23,9 @@ header {
     height: 100px;
     color: white;
     padding: 10px;
+    height: 90px;
 }
+
 header .redes {
     padding-bottom: 10px;
     border-bottom: 1px solid white;
@@ -52,8 +53,8 @@ header .section-nav .menu .item-menu {
 }
 
 .menu{
-    display: flex;
-    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .item-menu{
@@ -61,21 +62,56 @@ header .section-nav .menu .item-menu {
     margin-bottom: 10px;
 }
 
-
-
-/* ============= MAIN ============== */
-
-.titulo-1 {
-    font-size: 40px;
+.menu .item-menu .negrito{
+    color: var(--Neve, #F9FAFC);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+    border-bottom: 4px solid var(--ui-color-alert, #FFC82C);
+    
+    
 }
 
-.mensagem {
+.menu .item-menu p{
+    color: var(--Neve-Dark, #EFF2F7);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titulo-1 {
+    padding-top: 60px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 45.6px */
+}
+
+.texto{
+    margin-bottom: 30px;
+}
+
+.sub-1 {
     text-align: right;
     margin-bottom: 20px;
 }
-.mensagem em {
-    color: #2648A1;
-    font-size: 25px;
+.sub-1 em {
+    color: var(--ui-color-primary, #2648A1);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; 
 }
 .logo_maior {
     margin-bottom: 30px;
@@ -90,7 +126,7 @@ header .section-nav .menu .item-menu {
     color: #2648A1;
     margin: 0;
 }
-.line {
+.linhaabaixo {
     margin-top: 5px;
     height: 5px;
     width: 85px;
@@ -139,25 +175,27 @@ header .section-nav .menu .item-menu {
     font-weight: 900;
 }
 
-.galeria h2 {
+.fotos h2 {
     color: #2648A1;
     font-weight: 900;
 }
-.galeria h2 small {
+.fotos h2 small {
     font-weight: 400;
     font-size: 15px;
 }
-main .galeria .imagens figure{
+main .fotos .imgs figure{
     display: inline-block;
     margin: 0;
 
 }
-.galeria .imagens img {
+.fotos .imgs img {
     width: 250px;
-
 }
 
-/* ============= FOOTER ============== */
+.imgs{
+    display: flex;
+    justify-content: center;
+}
 
 footer {
     background: linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%);
@@ -214,9 +252,6 @@ footer .container-1 .coluna-2 .top .sub-menu {
     transition: .5s;
     margin-bottom: 10px;
 }
-.coluna-2 .top .item-menu:hover {
-    scale: 1.05;
-}
 .coluna-2 .top ul {
     margin-right: 50px;
 }
@@ -258,6 +293,8 @@ footer .container-1 .coluna-2 .top .sub-menu {
 .coluna-3 .telegram a i {
     margin-right: 10px;
 }
-.coluna-3 .telegram a:hover {
-    background: #67a4ff;
+
+
+@media (max-width: 568px){
+
 }
