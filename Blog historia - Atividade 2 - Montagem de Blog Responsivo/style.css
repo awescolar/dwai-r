@@ -39,43 +39,141 @@ header .div-header-direita {
     gap: 20px;
 }
 
+.texto-com-traco {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre os elementos */
+}
+
+.traco-vertical {
+    width: 1px;           /* Largura do traço */
+    height: 55px;         /* Altura do traço */
+    background-color: #ffffff; /* Cor do traço */
+}
+
+.lupa-container {
+    display: flex;
+    justify-content: flex-end; /* Alinha toda a div à direita */
+    align-items: center;
+    width: 100%; /* Garante que ocupe todo o espaço disponível */
+}
+
+.lupa-com-traco {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding-left: 800px;
+}
+
+.traco-horizontal {
+    width: 280px;           /* Comprimento do traço */
+    height: 1px;           /* Espessura do traço */
+    background-color: #ffffff; /* Cor do traço */
+}
+
+.navbarbotao {
+    display: flex;
+    gap: 15px; /* Espaço entre os botões */
+    align-items: center; 
+}
+
+.botoes-container .botao {
+    font-weight: 300; /* Ou use 'normal' caso queira um pouco mais espesso */
+}
+
 /* Main */
 main {
     width: 100%;
-    padding: 40px 5%;
+    padding: 50px ;
     box-sizing: border-box;
 }
 
-/* Container 1 */
 .container-1 {
-    margin-bottom: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px; /* Adiciona espaço interno (padding) ao redor do conteúdo */
+    background-color: #f9f9f9; /* Cor de fundo opcional */
+    border-radius: 10px; /* Bordas arredondadas, se necessário */
 }
+
 .container-1 .titulo-principal {
     display: flex;
     align-items: center;
     gap: 15px;
     font-size: 32px;
     font-weight: bold;
-    color: #333;
+    color: #273644;
 }
 .container-1 .texto-1 {
     margin: 20px 0;
-    color: #555;
+    color: #707C8C;
     font-size: 16px;
+}
+/* Alinhar texto e imagem vetorial lado a lado */
+.texto-imagem-container {
+    display: flex;
+    align-items: center;  /* Alinha verticalmente */
+    gap: 10px;  /* Espaço entre o texto e a imagem */
+    font-size: 16px;
+    color: #707C8C;
+    margin-top: 40px;
+}
+
+.texto-imagem-container img {
+    width: 24px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
+
+/* Estilo para o texto "Sérgio Trindade" */
+.negrito-borda {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #EB5151;
+}
+
+/* Alinhar texto e imagem do "Continue lendo..." lado a lado */
+.continue-lendo-container {
+    display: flex;
+    align-items: center;  /* Alinha verticalmente */
+    gap: 10px;  /* Espaço entre o texto e a imagem */
+    font-size: 16px;
+    color: #273644;
+    margin-top: 20px;  /* Espaço para separar do texto acima */
+    cursor: pointer;  /* Mostra que é interativo */
+    padding: 10px 20px;  /* Espaço interno */
+    transition: background-color 0.3s ease;  /* Animação para o hover */
+    text-align: center;
+}
+
+.continue-lendo-container img {
+    width: 40px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
 }
 
 /* Categorias */
 .container-2 {
     margin-bottom: 40px;
+    text-align: center; 
+}
+
+.container-2 img {
+    margin: 0 auto 15px auto; 
+    display: block;  
+}
+.container-2 p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 .container-2 .categorias {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     margin: 10px 0;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
 }
 .container-2 .categorias p {
-    background-color: #FFCF00;
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 14px;
@@ -85,40 +183,110 @@ main {
 .container-3 {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
     margin-bottom: 40px;
-}
-.container-3 .galeria-fotos, .container-3 .videos {
-    width: 48%;
-}
-.container-3 img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-.container-3 p {
-    font-size: 14px;
-    color: #555;
 }
 
-/* Últimos posts */
-.container-4 {
-    margin-bottom: 40px;
+.container-3 .galeria-fotos, .container-3 .videos {
+    display: flex;
+    width: 48%; /* Ajusta a largura para as galerias ficarem lado a lado */
 }
+
+.container-3 img {
+    border-radius: 10px;
+}
+
+.container-3 p {
+    font-size: 18px; /* Aumenta o tamanho do título */
+    font-weight: bold;
+    margin-bottom: 10px; /* Espaço entre o título e as imagens */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Ajuste no espaçamento entre as imagens da galeria */
+.galeria-fotos div, .videos div {
+    margin-bottom: 5px; /* Diminui o espaçamento entre as imagens */
+}
+
+/* Container para imagens sobrepostas */
+.container-3 .img-sobreposta {
+    position: relative; /* Define o container para posicionamento absoluto das imagens */
+}
+.container-3 .img-sobreposta img:nth-child(2) {
+    position: absolute; /* Coloca a segunda imagem em posição absoluta */
+    top: 50%; /* Posiciona a imagem player no meio da imagem base */
+    left: 50%; /* Posiciona a imagem player no meio da imagem base */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar completamente */
+    width: 30%; /* Tamanho menor da imagem player */
+}
+
+.container-3 .mais-fotos, .container-3 .mais-videos {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente, se necessário */
+    margin-top: 20px;         /* Ajuste a margem superior conforme necessário */
+}
+
+/* Estilos adicionais para a seta */
+.seta {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.seta:hover {
+    transform: scale(1.1);
+}
+
 .container-4 div {
-    border-bottom: 1px solid #ddd;
-    padding: 15px 0;
-    font-size: 16px;
-    color: #555;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-bottom: 20px; /* Adiciona um espaço entre os itens */
+}
+
+.container-4 div p {
+    font-size: 16px; /* Ajusta o tamanho do texto */
+    color: #555; /* Cor do texto */
+    margin-bottom: 15px; /* Aumenta o espaço entre os parágrafos */
+}
+
+.container-4 div div {
+    display: flex; /* Usa flexbox para alinhar a data e a imagem lado a lado */
+    justify-content: flex-start; /* Alinha os itens à esquerda */
+    align-items: center; /* Alinha verticalmente os itens */
+}
+
+.container-4 div div p {
+    margin-right: 10px; /* Adiciona um espaço entre o texto e a imagem */
+}
+
+.container-4 div div img {
+    width: 20px; /* Ajusta o tamanho da imagem conforme necessário */
+    height: auto;
+}
+
+.container-4 .titulo-ultimos-posts {
+    text-align: left; /* Alinha o texto à direita */
+    font-weight: 400;  /* Deixa o texto mais fino */
+    margin-bottom: 20px; /* Dá um espaço abaixo do título */
+}
+
+.publi {
+    font-weight: 100;              
+    text-decoration: underline;
 }
 
 /* Séries de posts */
 .container-5 {
     margin-bottom: 40px;
 }
+.container-5 .titulo-cont5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
 .container-5 .cards-cont5 {
     display: flex;
-    gap: 20px;
+    gap: 0px;
     flex-wrap: wrap;
 }
 .container-5 .cards-cont5 div {
@@ -130,20 +298,50 @@ main {
     color: #555;
 }
 
-/* Footer */
-.footer {
-    width: 100vw;
-    background-color: #ffffff;
+.container-5 .final-cont5 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 5%;
-    box-sizing: border-box;
-}
-footer p {
-    font-size: 16px;
+    gap: 10px;
+    cursor: pointer;
 }
 
+.container-5 .final-cont5 p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    padding: 20px 5%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.footer-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-direita {
+    gap: 20px; 
+    margin-left: auto; 
+    justify-content: space-between; 
+}
+
+.footer-direita p {
+    font-size: 16px;
+    color: #555;  
+    margin: 0;
+    cursor: pointer;
+}
+
+/* Responsividade */
 @media (max-width: 568px) {
     header, .footer {
         flex-direction: column;
@@ -159,7 +357,7 @@ footer p {
         padding: 10px 5%;
     }
 
-    .galeria-fotos div, .videos div, .cards-cont5 div {
+    .container-3 .galeria-fotos div, .container-3 .videos div, .container-3 .mais-fotos, .container-3 .mais-videos {
         width: 100%;
         margin-bottom: 10px;
     }
