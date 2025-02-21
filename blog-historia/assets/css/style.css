@@ -669,10 +669,6 @@ footer {
         margin-bottom: 10px;
     }
 
-    .posts-series-bottom-secundary-text {
-        font-size: 12px;
-        width: 100%;
-    }
 
     .blue-a {
         font-size: 10px;
@@ -682,19 +678,6 @@ footer {
         width: 100%;
         height: 1px;
     }
-
-    .posts-series-card {
-        width: 100%;
-        height: auto;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    #posts-series-cards {
-        column-gap: 20px;
-        width: 100%;
-    }
-
     .posts-cards-main-text {
         font-size: 16px;
     }
@@ -718,28 +701,4 @@ footer {
         padding-right: 20px;
     }
 
-    .footer-li, .link-footer {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    #footer-ul {
-        list-style: none;
-        text-align: center;
-    }
-
-    .red-line-footer {
-        width: 50px;
-    }
-
-    .footer-bottom {
-        width: 100%;
-        height: 40px;
-    }
-
-    .footer-bottom-content-area {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
 }
