@@ -1,0 +1,61 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #C11616;
+    padding: 20px 130px 20px 130px;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header, header .container, .container-links, header .container-right .secao-busca, .post1, .post2, .post3, .post4, .container-posts {
+    display: flex;
+}
+
+header .container-left {
+    width: 460px;
+    align-items: center;
+}
+
+header .container-left img {
+    border-right: solid 1px #fff;
+    padding-right: 40px;
+    margin-right: 29px;
+}
+
+header .container-left p {
+    font-style: italic;
+}
+
+header .container-right {
+    width: 540px;
+    justify-content: space-between;
+}
+
+header .container-right .secao-busca {
+    align-items: baseline;
+    gap: 7.5px;
+}
+
+header .container-right .caixa-de-busca {
+    width: 281.5px;
+    height: 1px;
+    background-color: #fff;
+}
+
+header .container-right .container-links {
+    gap: 15px;
+}
+
+header .container-right .container-links a {
+    color: #fff;
+}
+
+header .container-right .container-links .blog {
+    border-right: solid 1px #fff;
+    padding-right: 15px;
+}
