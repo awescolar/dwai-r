@@ -6,66 +6,67 @@ body {
 
 header {
     background-color: #C11616;
-    padding: 1.25rem 8.125rem 1.25rem 8.125rem;
+    padding: 20px 130px;
     color: #fff;
     justify-content: space-between;
     align-items: center;
 }
 
-header, header .container, .container-links, header .container-right .secao-busca, .post1, .post2, .post3, .post4, .container-posts {
+header, header .wrapper, .nav-links, header .right-section .search-area, .latest-posts {
     display: flex;
 }
 
-header .container-right {
-    width: 33.75rem;
+header .right-section {
+    width: 540px;
     justify-content: space-between;
 }
 
-header .container-right .secao-busca {
+header .right-section .search-area {
     align-items: baseline;
-    gap: 0.4688rem;
+    gap: 7.5px;
 }
 
-header .container-right .caixa-de-busca {
-    width: 17.5938rem;
-    height: 0.0625rem;
+header .right-section .search-box {
+    width: 281.5px;
+    height: 1px;
     background-color: #fff;
 }
 
-header .container-right .container-links {
-    gap: 0.9375rem;
+header .right-section .nav-links {
+    gap: 15px;
 }
 
-header .container-right .container-links a {
+header .right-section .nav-links a {
     color: #fff;
 }
 
-header .container-right .container-links .blog {
+header .right-section .nav-links .blog-link {
     border-right: solid 1px #fff;
-    padding-right: 0.9375rem;
+    padding-right: 15px;
 }
 
-.símbolo-do-título{
+.title-symbol {
     position: absolute;
     top: 78px;
     left: calc(-94px - 22px);
 }
-.container-main-new{
-    max-width: 49.25rem;
+
+.main-content {
+    max-width: 788px;
     margin: auto;
     display: flex;
     flex-direction: column;
 } 
 
-h1{
+h1 {
     color: #273644;
     font-size: 40px;
     font-weight: 800;
     line-height: 140%; /* 56px */
-    margin-top: 6rem;
-
+    margin-top: 96px;
 }
-.subtitulo{
+
+.subtitle {
     background: #EFF2F7;
     color: #3C4B58;
     font-size: 16px;
@@ -73,21 +74,25 @@ h1{
     line-height: 140%;
     display: flex;
     align-items: center;
-    height: 2.5rem;
-    padding-left: 2.125rem;
+    height: 40px;
+    padding-left: 34px;
 }
-.destaque-subtitulo-1{
+
+.highlight-1 {
     color: #3C4B58;
 }
-.destaque-subtitulo-2{
+
+.highlight-2 {
     color: #EB5151;
     font-weight: 700;
 }
-.balão-posts-novos-autor{
-    height: 1.5rem;
-    margin-left: 1.625rem;
+
+.new-posts-bubble {
+    height: 24px;
+    margin-left: 26px;
 }
-.número-posts-novos-autor{
+
+.new-posts-count {
     color: #F9FAFC;
     font-size: 12px;
     font-weight: 700;
@@ -95,47 +100,55 @@ h1{
     position: absolute;
     left: 4px;
 }
-.notícia-destaque{
+
+.featured-news {
     color: #707C8C;
     font-size: 21px;
     line-height: 160%; 
-    margin-bottom: 3.375rem;
+    margin-bottom: 54px;
 }
-.continue-lendo{
+
+.read-more {
     display: flex;
-    margin-bottom: 3.375rem;
+    margin-bottom: 54px;
 }
-.botão-continue-lendo{
+
+.read-more-button {
     background: linear-gradient(90deg, #EFF0F2 0%, rgba(249, 250, 252, 0.00) 50.31%);
     border: none;
     color: #273644;
     font-style: italic;
     font-weight: 300;
     line-height: 160%; /* 25.6px */
-    padding: 0 2.25rem 0.25rem 0.625rem;
+    padding: 0 36px 4px 10px;
 }
-.botão-continue-lendo:hover{
+
+.read-more-button:hover {
     cursor: pointer;
 }
-.linha-vermelha{
-    width: 5rem;
-    height: 0.25rem;
+
+.red-line {
+    width: 80px;
+    height: 4px;
     border-radius: 5px;
     background: linear-gradient(90deg, #F00 0%, rgba(255, 0, 0, 0.46) 60.12%);
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
-.título-principais-categorias{
+
+.main-categories-title {
     color: #8D9AA6;
     font-size: 26px;
     font-weight: 300;
     line-height: 160%; 
-    margin-bottom: 0.75rem;
+    margin-bottom: 12px;
 }
-.links-principais-categorias{
+
+.main-categories-links {
     display: flex;
     justify-content: space-between;
 }
-.link-principais-categorias{
+
+.category-link {
     color: #EB5151;
     font-weight: 300;
     line-height: 160%; 
@@ -146,36 +159,32 @@ h1{
     margin-bottom: 18px;
 }
 
-.mais-categorias{
+.view-all-categories {
     color: #8D9AA6;
     font-weight: 300;
     line-height: 160%; 
     align-self: flex-end;
 }
 
-
-.gallery-title {
-    color:#EB5151;
+.gallery-header {
+    color: #EB5151;
     font-family: Inter;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700; 
 }
 
-.card-text {
-    color:#273644;
+.photo-description {
+    color: #273644;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500; 
 }
 
 .link-text {
-    color:#E62121;
+    color: #E62121;
     text-align: right;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 300; 
 }
 
@@ -193,28 +202,28 @@ h1{
     flex-direction: row-reverse;
 }
 
-.remove-margin {
+.no-margin {
     margin: 0;
 }
 
-#gallery {
+#photo-gallery {
     column-gap: 30px;
     align-items: center;
     align-self: center;
     margin-top: 100px;
-
 }
 
-#photo-cards, #video-cards {
+#image-cards, #video-cards {
     column-gap: 24px;
     width: 580px;
     overflow-x: hidden;
 }
 
-.image-gradient {
+.gradient-image {
     position: relative;
 }
-#video-with-display {
+
+#video-display {
     background-image: radial-gradient(50% 50% at 50% 50%, rgba(34, 34, 34, 0.84) 30.52%, rgba(34, 34, 34, 0.31) 100%), url(../images/img-4.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -225,7 +234,7 @@ h1{
     height: 221px; 
 }
 
-.link {
+.news-link {
     align-items: center;
     column-gap: 20px;
 }
@@ -233,10 +242,9 @@ h1{
 #index-2 {
     border: solid 1px white;
     padding: 12px 10px 12px 15px;
-    border-radius: 40px;
 }
 
-.post{
+.latest-posts {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -245,16 +253,15 @@ h1{
     margin-left: auto;
 }
 
-.post .titulo{
+.latest-posts .latest-title {
     color: var(--neutras-gray, #8D9AA6);
     font-size: 26px;
     font-weight: 300;
     padding-bottom: 5px;
     border-bottom: 1px solid #D3DDE6;
-   
 }
 
-.noticia{
+.news-item {
     display: flex;
     flex-direction: column;
     width: 700px;
@@ -263,36 +270,35 @@ h1{
     padding-bottom: 35px;
 }
 
-.noticia .descricao{
+.news-item .news-description {
     font-size: 21px;
 }
 
-.noticia span{
-    color: var(--neutras-gray, #8D9AA6)
+.news-item span {
+    color: var(--neutras-gray, #8D9AA6);
 }
 
-.noticia .link{
+.news-item .news-link {
     color: var(--neutras-prata, #3C4B58);
 }
 
-.link-noticia{
+.all-news-link {
     text-align: right;
     color: var(--ui-color-primary, #2648A1);
 }
 
-.data img{
+.date-info img {
     width: 32px;
     height: 25px;
     display: flex;
-    
 }
 
-.noticia .data {
+.news-item .date-info {
     display: flex;
     gap: 20px;
 }
 
-#img-3 .card-text{
+#img-3 .photo-description {
     width: 147px;
 }
 
@@ -302,44 +308,36 @@ h1{
     margin-top: 64px;
 }
 
-
-
-#title-posts-series {
+#series-title {
     font-size: 26px;
-    font-style: normal;
     font-weight: 800; 
     margin-bottom: 0;
 }
 
-.subtitle-post-series {
+.series-subtitle {
     font-size: 16px;
-    font-style: normal;
     font-weight: 300; 
 }
 
-.red-a {
+.red-link {
     font-size: 14px;
-    font-style: normal;
-    font-weight: 300; 
     color: #EB5151;
     text-decoration: none;
 }
 
-.posts-series-top-secundary-text, .footer-secundary-text {
+.series-top-text, .footer-secondary-text {
     font-weight: 700;
     color: #EB5151;
     width: 245px; 
 }
 
-.red-a, .posts-series-top-secundary-text {
+.red-link, .series-top-text {
     margin-top: 23px;
     margin-bottom: 15px;
 }
 
-.posts-series-bottom-secundary-text {
+.series-bottom-text {
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400; 
     color: #EB5151;
     padding-top: 9px;
     position: absolute;
@@ -347,7 +345,7 @@ h1{
     width: 245px; 
 }
 
-.blue-a {
+.blue-link {
     font-size: 12px;
     font-style: italic;
     font-weight: 300; 
@@ -363,7 +361,7 @@ h1{
     bottom: 45px;
 }
 
-.posts-series-card {
+.series-card {
     width: 280px;
     height: 260px; 
     border: solid 1px #EB5151;
@@ -373,25 +371,24 @@ h1{
     padding-right: 20px;
 }
 
-#posts-series-cards {
+#series-cards {
     column-gap: 27px;
     width: 1240px;
 }
 
-.posts-cards-main-text {
+.series-main-text {
     font-size: 18px;
-    font-style: normal;
     font-weight: 700; 
     color: #C11616;
     width: 245px;
 }
 
-.links-posts-series {
+.series-links {
     width: 1200px;
     margin-top: 8px;
 }
 
-#arrow-more {
+#more-arrow {
     align-self: flex-end;
 }
 
@@ -410,20 +407,18 @@ footer {
     box-sizing: border-box;
 }
 
-.footer-li, .link-footer {
+.footer-item, .footer-link {
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400; 
     color: #3C4B58;
 }
 
-#footer-ul {
+#footer-list {
     list-style: none;
     text-align: right;
     row-gap: 8px;
 }
 
-.red-line-footer {
+.footer-red-line {
     width: 60px;
     height: 1px; 
     background-color: #C11616;
@@ -463,42 +458,42 @@ footer {
         align-items: center;
     }
 
-    header .container-right {
+    header .right-section {
         width: 100%;
         justify-content: space-between;
     }
 
-    header .container-right .secao-busca {
+    header .right-section .search-area {
         align-items: baseline;
         gap: 7.5px;
     }
 
-    header .container-right .caixa-de-busca {
+    header .right-section .search-box {
         width: 200px;
     }
 
-    header .container-right .container-links {
+    header .right-section .nav-links {
         gap: 10px;
         flex-direction: column;
     }
 
-    header .container-right .container-links a {
+    header .right-section .nav-links a {
         color: #fff;
         font-size: 14px;
     }
 
-    header .container-right .container-links .blog {
+    header .right-section .nav-links .blog-link {
         border-right: solid 1px #fff;
         padding-right: 10px;
     }
 
-    .símbolo-do-título {
+    .title-symbol {
         position: absolute;
         top: 78px;
         left: 0;
     }
 
-    .container-main-new {
+    .main-content {
         max-width: 100%;
         margin: auto;
         display: flex;
@@ -511,59 +506,59 @@ footer {
         margin-top: 64px;
     }
 
-    .subtitulo {
+    .subtitle {
         font-size: 14px;
         padding-left: 20px;
         height: 35px;
     }
 
-    .destaque-subtitulo-1, .destaque-subtitulo-2 {
+    .highlight-1, .highlight-2 {
         font-size: 14px;
     }
 
-    .balão-posts-novos-autor {
+    .new-posts-bubble {
         height: 24px;
     }
 
-    .notícia-destaque {
+    .featured-news {
         font-size: 18px;
     }
 
-    .continue-lendo {
+    .read-more {
         display: block;
         margin-bottom: 30px;
     }
 
-    .botão-continue-lendo {
+    .read-more-button {
         padding: 0 24px 4px 10px;
     }
 
-    .linha-vermelha {
+    .red-line {
         width: 50px;
         height: 4px;
     }
 
-    .título-principais-categorias {
+    .main-categories-title {
         font-size: 20px;
     }
 
-    .links-principais-categorias {
+    .main-categories-links {
         flex-direction: column;
     }
 
-    .link-principais-categorias {
+    .category-link {
         margin-bottom: 12px;
     }
 
-    .mais-categorias {
+    .view-all-categories {
         font-size: 14px;
     }
 
-    .gallery-title {
+    .gallery-header {
         font-size: 20px;
     }
 
-    .card-text {
+    .photo-description {
         font-size: 14px;
     }
 
@@ -577,69 +572,69 @@ footer {
         align-items: flex-start;
     }
 
-    #gallery {
+    #photo-gallery {
         margin-top: 30px;
     }
 
-    #photo-cards, #video-cards {
+    #image-cards, #video-cards {
         width: 100%;
         column-gap: 10px;
     }
 
-    .image-gradient {
+    .gradient-image {
         position: relative;
     }
 
-    #video-with-display {
+    #video-display {
         width: 100%;
         height: auto;
     }
 
-    .link {
+    .news-link {
         display: flex;
         justify-content: flex-start;
     }
 
-    .post {
+    .latest-posts {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
         padding: 0 10px;
     }
 
-    .post .titulo {
+    .latest-posts .latest-title {
         font-size: 18px;
     }
 
-    .notícia {
+    .news-item {
         width: 100%;
         gap: 10px;
         padding-bottom: 20px;
     }
 
-    .notícia .descricao {
+    .news-item .news-description {
         font-size: 18px;
     }
 
-    .notícia span {
+    .news-item span {
         font-size: 14px;
     }
 
-    .notícia .link {
+    .news-item .news-link {
         font-size: 14px;
     }
 
-    .data img {
+    .date-info img {
         width: 20px;
         height: 15px;
     }
 
-    .notícia .data {
+    .news-item .date-info {
         display: flex;
         gap: 10px;
     }
 
-    #img-3 .card-text {
+    #img-3 .photo-description {
         width: 100%;
     }
 
@@ -647,30 +642,29 @@ footer {
         margin-top: 30px;
     }
 
-    #title-posts-series {
+    #series-title {
         font-size: 22px;
     }
 
-    .subtitle-post-series {
+    .series-subtitle {
         font-size: 14px;
     }
 
-    .red-a {
+    .red-link {
         font-size: 12px;
     }
 
-    .posts-series-top-secundary-text, .footer-secundary-text {
+    .series-top-text, .footer-secondary-text {
         font-size: 12px;
         width: 100%;
     }
 
-    .red-a, .posts-series-top-secundary-text {
+    .red-link, .series-top-text {
         margin-top: 15px;
         margin-bottom: 10px;
     }
 
-
-    .blue-a {
+    .blue-link {
         font-size: 10px;
     }
 
@@ -678,15 +672,16 @@ footer {
         width: 100%;
         height: 1px;
     }
-    .posts-cards-main-text {
+
+    .series-main-text {
         font-size: 16px;
     }
 
-    .links-posts-series {
+    .series-links {
         width: 100%;
     }
 
-    #arrow-more {
+    #more-arrow {
         align-self: center;
     }
 
@@ -700,5 +695,4 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
-
 }
