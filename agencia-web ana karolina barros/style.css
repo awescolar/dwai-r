@@ -1,8 +1,10 @@
 body {
+
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -11,6 +13,7 @@ body {
     color: white;
     padding: 10px 20px;
 }
+
 .menu-botao {
     display: none;
     background: none;
@@ -65,9 +68,9 @@ body {
 }
 
 .filtrarhabilidades {
-    text-align: left; /* Alinha o conteúdo à esquerda */
-    margin-left: 0; /* Remove qualquer margem à esquerda, se houver */
-    padding-left: 20px; /* Adiciona um pequeno espaçamento à esquerda para o título */
+    text-align: left; 
+    margin-left: 0; 
+    padding-left: 20px; /
 }
     
 .filtrarhabilidades h4 {
@@ -76,25 +79,25 @@ body {
 
 .filtros {
     display: flex;
-    justify-content: left; /* Alinha os botões ao centro */
-    gap: 20px; /* Espaçamento entre os botões */
-    margin-top: 20px; /* Adiciona espaço no topo */
+    justify-content: left; 
+    gap: 20px; 
+    margin-top: 20px; /
 }
 
 .filtros button {
-    padding: 20px 50px; /* Aumenta o tamanho do botão */
-    border: 2px solid #003366; /* Borda azul */
-    background-color: transparent; /* Deixa o fundo transparente */
-    color: #003366; /* Cor do texto azul */
-    font-size: 19px; /* Aumenta o tamanho da fonte */
-    cursor: pointer; /* Adiciona cursor de ponteiro */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-weight: bold; /* Deixa o texto em negrito */
+    padding: 20px 50px; 
+    border: 2px solid #003366;
+    background-color: transparent;
+    color: #003366; 
+    font-size: 19px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-weight: bold; 
 }
 
 .filtros button:hover {
-    background-color: #003366; /* Fundo azul ao passar o mouse */
-    color: white; /* Texto branco ao passar o mouse */
+    background-color: #003366; 
+    color: white; 
 }
 .equipe {
     display: grid;
@@ -194,14 +197,81 @@ body {
             padding: 20px;
             background: #003366;
 }
-@media (max-width: 568px) {
-    .navegacao ul {
-        display: none;
+
+    @media (max-width: 568px) {
+
+        .cabecalho {
+            flex-direction: column;
+            text-align: center;
+            padding: 10px;
+        }
+    
+        .navegacao ul {
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .migalhas p, .migalhas h3 {
+            margin-left: 0;
+            text-align: center;
+        }
+    
+        .seco-hero {
+            margin-left: 0;
+            margin-right: 0;
+            text-align: center;
+        }
+    
+        .filtros {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    
+        .filtros button {
+            width: 100%;
+            padding: 15px;
+        }
+    
+        .equipe {
+            grid-template-columns: 1fr;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    
+        .membro img {
+            width: 80%;
+            height: auto;
+        }
+    
+        .container-texto {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .carregaroutros {
+            padding: 50px;
+            margin-left: 0;
+            text-align: center;
+        }
+    
+        footer {
+            padding: 20px;
+        }
+    
+        .rodape-azul {
+            flex-direction: column;
+            padding: 20px;
+            align-items: center;
+        }
+    
+        .rodape-icones {
+            justify-content: center;
+            gap: 15px;
+        }
+    
+        .rodape-icones img {
+            width: 30px;
+            height: 30px;
+        }
     }
-    .menu-botao {
-        display: block;
-    }
-    .equipe {
-        grid-template-columns: 1fr;
-    }
-}
