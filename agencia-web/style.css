@@ -1,0 +1,190 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #003366;
+    color: white;
+    padding: 10px 20px;
+}
+.menu-botao {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.navegacao ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navegacao:hover {
+    cursor: pointer; 
+}
+
+.navegacao img {
+    padding: 30px; 
+}
+
+.migalhas {
+    align-items: center; 
+    gap: 5px; 
+    padding: 10px 0; /
+}
+
+.migalhas p {
+    font-weight: 300; 
+    margin-left: 300px; 
+}
+
+.migalhas h3 {
+    margin-left: 300px;}
+
+.migalhas h3 span {
+    color: #003366; 
+}
+
+.secao-hero {
+    text-align: right;
+    padding: 20px;
+    margin-left: 255px;
+    margin-right: 255px;
+}
+
+.filtrarhabilidades {
+    text-align: left; /* Alinha o conteúdo à esquerda */
+    margin-left: 0; /* Remove qualquer margem à esquerda, se houver */
+    padding-left: 20px; /* Adiciona um pequeno espaçamento à esquerda para o título */
+}
+    
+.filtrarhabilidades h4 {
+    font-weight: 300; 
+}
+
+.filtros {
+    margin-top: 10px;
+    text-align: center;
+}
+.filtros button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #003366;
+    background: none;
+    cursor: pointer;
+}
+.equipe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.membro {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.membro img {
+    width: 100%;
+    max-width: 230px;
+    height: 230px;
+    object-fit: cover;
+    margin-bottom: 10px; 
+    margin 0;
+}
+
+.container-texto {
+    width: 230px; 
+    text-align: left;
+}
+
+.container-texto h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.container-texto p {
+    margin: 5px 0 0;
+
+}
+
+.hastag {
+    font-weight: 700; 
+    margin-top: 10px;
+    font-size: 14px; 
+    color: #273444; }
+
+.carregaroutros{
+    padding: 100px;
+    margin-left: 180px;
+
+}
+
+
+        footer {
+            background: #FDB32F;
+            text-align: center;
+        }
+        .rodape-azul {
+            background: #003366;
+            color: white;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .rodape-azul div {
+            max-width: 300px;
+        }
+        .rodape-azul h3 {
+            color: #FFC82C;
+        }
+        .rodape-azul p, .rodape-azul a {
+            color: white;
+            text-decoration: none;
+        }
+        .rodape-icones {
+            display: flex;
+            gap: 15px;
+        }
+        .rodape-icones img {
+            width: 24px;
+            height: 24px;
+        }
+        .rodape-logo {
+            text-align: center;
+            padding: 20px;
+            background: #003366;
+}
+@media (max-width: 568px) {
+    .navegacao ul {
+        display: none;
+    }
+    .menu-botao {
+        display: block;
+    }
+    .equipe {
+        grid-template-columns: 1fr;
+    }
+}
