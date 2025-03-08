@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a,
+.title h1,
+.filtro,
+main button {
+    color: #2648A1;
+}
+
+header .container {
+    max-width: 1200px;
+    padding: 18px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header {
+    background: var(--Linear-Menu, linear-gradient(180deg, #014180 0%, #014D99 100%));
+    color: white;
+}
+
+header span {
+    margin-right: 24px;
+    font-size: 18px;
+}
+
+.logo-mobile{
+    display: none;
+}
+
+main {
+    max-width: 1005px;
+    margin: 0 auto;
+}
+
+.breadcrumb {
+    margin: 35px 0 42px;
+    color: #8492A6;
+}
+
+.breadcrumb .caminho {
+    font-size: 21px;
+}
+
+.title {
+    text-align: end;
+    margin-bottom: 80px;
+    color: #8492A6;
+}
+
+.box-filter>p {
+    color: #8492A6;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.box-filter {
+    margin-bottom: 48px;
+}
+
+.filtros {
+    display: flex;
+    gap: 14px;
+}
+
+.filtros .filtro {
+    padding: 8.594px 30.081px;
+    border-radius: 5.212px;
+    border: 1.042px solid #2648A1;
+    font-weight: 500;
+}
+
+.filtros .filtro:hover {
+    background-color: #2648A1;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.line-result {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+.item-resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.item-resultado h3 {
+    font-size: 22px;
+    color: #273444;
+}
+
+.item-resultado .description {
+    color: #3C4858;
+}
+
+.item-resultado a {
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main button {
+    display: flex;
+    width: 320px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+    border: 2px solid #2648A1;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+main button::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border: 2px solid #2648A1;
+    position: absolute;
+    border-radius: 5px;
+    z-index: -1;
+    bottom: -5px;
+    left: -5px;
+}
+
+footer {
+    margin-top: 120px;
+    background: linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+}
+
+.contact-instagram {
+    background: #FDB32F;
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+    font-style: italic;
+}
+
+.content-footer{
+    color: white;
+    padding:80px 0 ;
+    max-width:1121px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.content-footer>p{
+    font-size: 21px;
+    max-width:400px ;
+    line-height: 160%;
+}
+
+.content-footer .text span{
+    color: #FFC82C;
+}
+
+.links-contatcs{
+    display: flex;
+    gap: 24px;
+}
+
+.links-contatcs>* {
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.links-contatcs ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding-left: 0;
+}
+
+.links-contatcs .title-info{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+footer figure {
+    display: flex;
+    padding: 24px 0px;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid #3A95E9;
+}
+
+
+
+footer figure img {
+    width: 61.314px;
+    height: 35px;
+}
+
+@media (max-width: 568px) {
+    .breadcrumb,.filtro{
+        font-size: 14px;
+    }
+    .breadcrumb .caminho{
+        font-size: 16px;
+    }
+    .logo-mobile{
+        display: inline-block;
+    }
+    .logo{
+        display: none;
+    }
+    header .container{
+        padding: 18px 24px;
+    }
+    header,main{
+        padding: 0 24px;
+    }
+    .title,.box-filter{
+        margin-bottom: 32px;
+    }
+    .box-filter>p{
+        display: none;
+    }
+    .content-footer{
+        padding: 24px 24px 40px;
+    }
+    .line-result {
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+    .filtros{
+        overflow: scroll;
+    }
+    .filtros .filtro{
+        min-width: max-content;
+    }
+    main button{
+        width: 100%;
+    }
+    .links-contatcs{
+        flex-direction: column;
+        gap: 32px;
+    }
+}
