@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    width: 100%;
+    padding: 12px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(265deg, #203C86 46.03%, #203C86 53.97%);
+}
+.linha{
+    width: 100%;
+    height: 1px;
+    opacity: 0.2;
+    background: #FFF;
+}
+.redes, .principal-header{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+}
+.redes{
+    justify-content: flex-end;
+    gap: 50px;
+}
+.redes p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: normal;    
+}
+.redes .icones-header{
+    display: flex;
+    gap: 20px;
+}
+.principal-header{
+    justify-content: space-between;
+}
+.principal-header a{
+    color: var(--Neve-Dark, #EFF2F7);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.nav-header{
+    display: flex;
+    gap: 40px;
+}
+section{
+    width: 80%;
+}
+main{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0;
+    gap: 80px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 120%; /* 45.6px */
+    margin-bottom: 30px;
+}
+.epipa .citacao p{
+    color: var(--ui-color-primary, #2648A1);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%; /* 31.5px */ 
+}
+.citacao{
+    margin-bottom: 50px;
+}
+.epipa .citacao .autora{
+    color: #4D535B;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.epipa p{
+    color: var(--Prata, #3C4858);
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 170%; /* 35.7px */
+    width: 80%;
+}
+.logo{
+    margin-bottom: 70px;
+}
+.titulo h2{
+    color: var(--ui-color-primary, #2648A1);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.titulo h4{
+    color: var(--ui-color-primary, #2648A1);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%; /* 16.8px */
+}
+.linha-amarela{
+    width: 100px;
+    height: 4px;
+    background: var(--Gradiente-Laranja, linear-gradient(90deg, #E79A30 0.27%, #E8B743 99.65%));
+    margin-top: 7px;
+}
+.descobrimos .grupo-flex p{
+    color: var(--Prata, #3C4858);
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 170%; /* 35.7px */
+    width: 50%;
+}
+.descobrimos .titulo{
+    margin-bottom: 24px;
+}
+.grupo-flex{
+    display: flex;
+    position: relative;
+}
+.grupo-flex .card-img{
+   position: absolute;
+   right: -12%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.card-img h3{
+    color: var(--ui-color-primary, #2648A1);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+}
+.card-img h4{
+    color: var(--ui-color-primary, #2648A1);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 120%;
+}
+.legenda-img{
+    border-radius: 10px;
+    border: 1px solid var(--ui-color-primary, #2648A1);
+    margin-top: -5px;
+    width: 439px;
+    padding: 10px 0 10px 10px;
+}
+.descobrimos{
+    padding-bottom: 200px;
+}
+
+.praias{
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grupo-cards{
+    display: flex;
+}
+.praias .titulo{
+    align-self: flex-start;
+    margin-left: 18vw;
+    margin-bottom: 20px;
+}
+.grupo-cards img{
+    width: 280px;
+    height: 280px;
+}
+.grupo-cards h3{
+    color: var(--Prata, #3C4858);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%; /* 21.6px */
+    margin-bottom: 8px;
+}
+.grupo-cards h4{
+    color: var(--Prata, #3C4858);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 15.6px */
+}
+footer{
+    background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
+    display: flex;
+    padding: 60px 16px;
+    justify-content: center;
+    gap: 12px;
+    width: 97.9%;
+}
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 284px;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 20px;
+}
+.contato a{
+    color: var(--Neve, #F9FAFC);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+footer .icones{
+    display: flex;
+    gap: 24px;
+    align-self: flex-start;
+}
+.coluna2{
+    display: flex;
+    width: 584px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+    flex-shrink: 0;
+}
+.coluna2 .nav-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-height: 160px;
+}
+.nav-footer a{
+    color: var(--Fumaca-Extra-Dark, #C0CCDA);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 25.2px */
+    text-decoration: none;
+    padding-right: 14px;
+}
+.coluna2 p{
+    color: #E0E6ED;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+.card-tele{
+    display: flex;
+    padding: 32px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    border-radius: 6px;
+    background: #FFF;
+    height: 180px;
+}
+.card-tele h3{
+    color: var(--Black-2, #1F2D3D);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%; /* 32.4px */
+}
+.card-tele p{
+    color: var(--Gray, #8492A6);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+.card-tele a{
+    border-radius: 3.509px;
+    background: var(--ui-color-primary-light, #3A95E9);
+    display: flex;
+    padding: 12px 22px;
+    align-items: center;
+    gap: 27px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card-tele .texto{
+    width: 235px;
+}
