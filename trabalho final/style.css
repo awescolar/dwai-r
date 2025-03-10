@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    background: var(--Linear-Menu, linear-gradient(180deg, #014180 0%, #014D99 100%));
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.menu p{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 15%;
+    margin-top: 40px;
+    margin-bottom: 115px;
+}
+.mini{
+    color: var(--Gray, #8492A6);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    margin-bottom: 6px;
+}
+.esquerda h3{
+    color: var(--Gray, #8492A6);
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.esquerda h3 span{
+    color: var(--ui-color-primary, #2648A1);
+    text-decoration-line: underline;
+
+}
+h1{
+    color: var(--ui-color-primary, #2648A1);
+    text-align: right;
+    font-family: Lato;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%; /* 38px */
+}
+.direita{
+    text-align: right;
+}
+.imagens .botoes nav a{
+    height: 31px;
+    text-decoration: none;
+    color: var(--ui-color-primary-dark, #224586);
+    font-family: Lato;
+    font-size: 17.189px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 30.94px */
+    padding: 8.594px 30.081px;
+    border-radius: 5.212px;
+    border: 1.042px solid #2648A1;
+    min-width: fit-content;
+}
+.botoes nav{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.imagens .botoes nav .azul{
+    background: var(--ui-color-primary-dark, #224586);
+    color: #FFF;
+    color: var(--White, #FFF);
+
+}
+.imagens{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.trio-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.card-img{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+}
+.card-img h2{
+    color: var(--Aco, #273444);
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+}
+.card-img .tags{
+    font-family: Lato;
+    color: var(--Aco, #273444);
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    text-decoration-line: underline;
+}
+.btn-outros{
+    display: flex;
+    width: 320px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;   
+    border-radius: 5px;
+    border: 1px solid var(--ui-color-primary, #2648A1);
+    box-shadow: -5px 5px 0px 0px #2648A1;
+    color: var(--ui-color-primary, #2648A1);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.instagram{
+    width: 100%;
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    background: #FDB32F;
+}
+.instagram a{
+    color: var(--ui-color-primary-dark, #224586);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    text-decoration-line: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.instagram p{
+    color: var(--ui-color-primary-dark, #224586);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    width: 205px;
+}
+footer{
+    background: var(--linear-azul-2, linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%));
+}
+.logo-footer{
+    display: flex;
+    width: 100%;
+    padding: 24px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid var(--ui-color-primary-light, #3A95E9);
+}
+.footer-meio{
+    padding: 80px 15%;
+}
+.footer-meio .p-meio{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 400px;
+}
+.footer-meio p span{
+    color: #FFC82C;
+}
+.grupo-infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.grupo-infos h4{
+    color: var(--White, #FAFAFA);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 120%; /* 21.6px */
+}
+.footer-meio .grupo-infos .info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.info p{
+    color: var(--White, #FAFAFA);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    max-width: 360px;
+}
+.grupo-infos nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    margin-top: 16px;
+}
+.logo-celular{
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .logo-normal{
+        display: none;
+    }
+    .logo-celular{
+        display: block;
+    }
+    .mini{
+        font-size: 14px;
+    }
+    .esquerda h3{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .imagens .botoes nav a{
+        padding: 6.621px 23.173px;
+        font-size: 13px;
+        height: 24px;
+        min-width: fit-content;
+    }
+    .botoes nav {
+        width: 100%;
+        overflow: hidden;
+    }
+    .trio-img{
+        justify-content: center;
+        gap: 40px;
+    }
+    .container{
+        gap: 40px;
+    }
+    .btn-outros{
+        width: 100%;
+        padding: 16px 0;
+        gap: 30px;
+    }
+    .grupo-infos{
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+}
